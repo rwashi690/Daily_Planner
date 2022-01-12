@@ -29,3 +29,4 @@ for (let i=0; i<submitBtn.length; i++){
         console.log(textAreaVal)
     })
 }
+
