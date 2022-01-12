@@ -28,8 +28,44 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container" id="timeblocks">
       <!-- Timeblocks go here -->
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="col-sm-2  text-center">&#128337</th>
+            <th class="col-sm-10  text-center">Planned Event</th>
+          </tr>
+        </thead>
+        <tr id="hours">
+          <td>9:00 AM</td><td id="9AM"></td>
+        </tr>
+        <tr id="hours">
+          <td>10:00 AM</td><td id="10AM"></td>
+        </tr>
+        <tr id="hours">
+          <td>11:00 AM</td><td id="11AM"></td>
+        </tr>
+        <tr id="hours">
+          <td>12:00 PM</td> <td id="12PM"></td>
+        </tr>
+        <tr id="hours">
+          <td>1:00 PM</td><td id="1PM"></td>
+        </tr>
+        <tr id="hours">
+          <td>2:00 PM</td><td id="2PM"></td>
+        </tr>
+        <tr id="hours">
+          <td>3:00 PM</td><td id="3PM"></td>
+        </tr>
+        <tr id="hours">
+          <td>4:00 PM</td><td id="4PM"></td>
+        </tr>
+        <tr id="hours">
+          <td>5:00 PM</td><td id="5PM"></td>
+        </tr>
+      </table>
+      
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
